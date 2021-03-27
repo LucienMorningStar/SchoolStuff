@@ -1,5 +1,5 @@
 Imports System
-
+'yes'
 Module VBModule
     Sub Main()
 
