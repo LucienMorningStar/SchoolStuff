@@ -1,0 +1,16 @@
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.vbprojAssemblyReference.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.AssemblyInfoInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.AssemblyInfo.vb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.vbproj.CoreCompileInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.exe
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.deps.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.runtimeconfig.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.runtimeconfig.dev.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\ref\RPS.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RPS.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\ref\RPS.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RPS.genruntimeconfig.cache

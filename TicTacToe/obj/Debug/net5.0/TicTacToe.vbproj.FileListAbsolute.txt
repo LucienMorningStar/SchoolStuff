@@ -1,0 +1,16 @@
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.vbprojAssemblyReference.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.AssemblyInfo.vb
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.vbproj.CoreCompileInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.exe
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.deps.json
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.runtimeconfig.json
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.runtimeconfig.dev.json
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\ref\TicTacToe.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\bin\Debug\net5.0\TicTacToe.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\ref\TicTacToe.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\TicTacToe\obj\Debug\net5.0\TicTacToe.genruntimeconfig.cache

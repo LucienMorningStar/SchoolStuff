@@ -1,0 +1,16 @@
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.exe
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.deps.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.runtimeconfig.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.runtimeconfig.dev.json
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\ref\RockPaperScissors.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\bin\Debug\net5.0\RockPaperScissors.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.vbprojAssemblyReference.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.AssemblyInfo.vb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.vbproj.CoreCompileInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\ref\RockPaperScissors.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\RPS\obj\Debug\net5.0\RockPaperScissors.genruntimeconfig.cache
