@@ -1,0 +1,16 @@
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.exe
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.deps.json
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.runtimeconfig.json
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.runtimeconfig.dev.json
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\ref\DungeonConsoleGame.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\DungeonConsoleGame.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.AssemblyInfoInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.AssemblyInfo.vb
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.vbproj.CoreCompileInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\ref\DungeonConsoleGame.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.pdb
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.genruntimeconfig.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.vbprojAssemblyReference.cache

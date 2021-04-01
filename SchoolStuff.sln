@@ -5,7 +5,9 @@ VisualStudioVersion = 16.0.31112.23
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RockPaperScissors", "RPS\RockPaperScissors.vbproj", "{A3A75164-DC4C-47F9-8025-15FBBF8AAEC4}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "TicTacToe", "TicTacToe\TicTacToe.vbproj", "{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TicTacToe", "TicTacToe\TicTacToe.vbproj", "{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DungeonConsoleGame", "DungeonConsoleGame\DungeonConsoleGame.vbproj", "{17DBF205-45CA-4DFC-98B3-B241F8355E04}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
