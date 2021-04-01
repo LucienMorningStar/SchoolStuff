@@ -7,7 +7,9 @@ Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "RockPaperScissors", "RPS\Ro
 EndProject
 Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "TicTacToe", "TicTacToe\TicTacToe.vbproj", "{A685B3B3-C650-4D9C-8FCF-0154D8C29CB5}"
 EndProject
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DungeonConsoleGame", "DungeonConsoleGame\DungeonConsoleGame.vbproj", "{17DBF205-45CA-4DFC-98B3-B241F8355E04}"
+Project("{778DAE3C-4631-46EA-AA77-85C1314464D9}") = "DungeonConsoleGame", "DungeonConsoleGame\DungeonConsoleGame.vbproj", "{17DBF205-45CA-4DFC-98B3-B241F8355E04}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "DiscordBotTest", "DiscordBotTest\DiscordBotTest.vbproj", "{F584AB5E-F623-4E61-90C6-C6828DAA30DB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{17DBF205-45CA-4DFC-98B3-B241F8355E04}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F584AB5E-F623-4E61-90C6-C6828DAA30DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F584AB5E-F623-4E61-90C6-C6828DAA30DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F584AB5E-F623-4E61-90C6-C6828DAA30DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F584AB5E-F623-4E61-90C6-C6828DAA30DB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

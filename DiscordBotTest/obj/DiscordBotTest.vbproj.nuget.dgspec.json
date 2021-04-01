@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DungeonConsoleGame\\DungeonConsoleGame.vbproj": {}
+    "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DiscordBotTest\\DiscordBotTest.vbproj": {}
   },
   "projects": {
-    "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DungeonConsoleGame\\DungeonConsoleGame.vbproj": {
+    "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DiscordBotTest\\DiscordBotTest.vbproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DungeonConsoleGame\\DungeonConsoleGame.vbproj",
-        "projectName": "DungeonConsoleGame",
-        "projectPath": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DungeonConsoleGame\\DungeonConsoleGame.vbproj",
+        "projectUniqueName": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DiscordBotTest\\DiscordBotTest.vbproj",
+        "projectName": "DiscordBotTest",
+        "projectPath": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DiscordBotTest\\DiscordBotTest.vbproj",
         "packagesPath": "C:\\Users\\Nitropc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DungeonConsoleGame\\obj\\",
+        "outputPath": "C:\\Users\\Nitropc\\source\\repos\\SchoolStuff\\DiscordBotTest\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Nitropc\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -43,6 +43,30 @@
             "Discord.Net": {
               "target": "Package",
               "version": "[2.3.1, )"
+            },
+            "Discord.Net.Commands": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Core": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Rest": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.WebSocket": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Discord.Net.Webhook": {
+              "target": "Package",
+              "version": "[2.3.1, )"
+            },
+            "Microsoft.Extensions.Configuration": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             }
           },
           "imports": [

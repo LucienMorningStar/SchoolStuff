@@ -1,0 +1,5 @@
+C:\Users\Nitropc\source\repos\SchoolStuff\DiscordBotTest\obj\Debug\net5.0\DiscordBotTest.vbprojAssemblyReference.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DiscordBotTest\obj\Debug\net5.0\DiscordBotTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Nitropc\source\repos\SchoolStuff\DiscordBotTest\obj\Debug\net5.0\DiscordBotTest.AssemblyInfoInputs.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DiscordBotTest\obj\Debug\net5.0\DiscordBotTest.AssemblyInfo.vb
+C:\Users\Nitropc\source\repos\SchoolStuff\DiscordBotTest\obj\Debug\net5.0\DiscordBotTest.vbproj.CoreCompileInputs.cache
