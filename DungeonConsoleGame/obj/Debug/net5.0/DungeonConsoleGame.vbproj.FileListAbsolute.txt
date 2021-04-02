@@ -14,3 +14,12 @@ C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\re
 C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.pdb
 C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.genruntimeconfig.cache
 C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.vbprojAssemblyReference.cache
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Discord.Net.Commands.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Discord.Net.Core.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Discord.Net.Rest.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Discord.Net.Webhook.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Discord.Net.WebSocket.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\Newtonsoft.Json.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\System.Interactive.Async.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\bin\Debug\net5.0\System.Linq.Async.dll
+C:\Users\Nitropc\source\repos\SchoolStuff\DungeonConsoleGame\obj\Debug\net5.0\DungeonConsoleGame.vbproj.CopyComplete
