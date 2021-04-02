@@ -34,7 +34,7 @@ Module Program
             Console.Write("Buy,")
             Console.Write("Sell,")
             Console.Write("Dungeon,")
-            Console.Write("adventure,")
+            Console.Write("Adventure,")
             Console.WriteLine("Before every command type DCG then press space.")
         End If
 
@@ -86,7 +86,21 @@ Module Program
         'The armor you use that defends you from a specific creature or attack when you upgrade your armor the defence combine.'
         'The sword you use that helps defeat specific enemies when upgraded the abilities combine.'
 
-        If Player = Console.ReadLine("DungeonEnter") Then
+        If Console.ReadLine() = "Inventory" Then
+
+
+
+
+        End If
+
+        If Console.ReadLine() = "DungeonEnter" Then
+
+
+
+
+        End If
+
+        If Console.ReadLine() = "EnterPromisedLand" Then
 
 
 
@@ -94,22 +108,104 @@ Module Program
         End If
 
 
-        If Player = Console.ReadLine("EnterPromisedLand") Then
+
+
+        MyValue = Int((3 * Rnd()) + 1)
+        Console.WriteLine(MyValue)
 
 
 
+
+
+        If Console.ReadLine() = "Adventure" Then
+            If Level < 5 Then
+                Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 15hp.")
+                Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 20hp.")
+                Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 30hp.")
+                Console.WriteLine("You encotered a baby oger, it took you 5 hits to kill it, you took 50hp.")
+            End If
+
+            If Level > 10 Then
+                Console.WriteLine("You encotered a witch, it took you 5 hits to kill it, you took 50hp.")
+                Console.WriteLine("You encotered a lost souls, it took you 16 hits to kill it, you took 40hp.")
+                Console.WriteLine("You encotered a ghoul, it took you 9 hits to kill it, you took 60hp.")
+                Console.WriteLine("You encotered a knight, it took you 7 hits to kill it, you took 85hp.")
+                Console.WriteLine("You encotered a goblin pack, it took you 30 hits to kill it, you took 95hp.")
+
+            End If
+
+            If Level > 20 Then
+                Console.WriteLine("You encotered a titan, it took you 48 hits to kill it, you took 120hp.")
+                Console.WriteLine("You encotered a oger, it took you 35 hits to kill it, you took 90hp.")
+                Console.WriteLine("You encotered a wolf pack, it took you 8 hits to kill it, you took 75hp.")
+                Console.WriteLine("You encotered a burned one, it took you 5 hits to kill it, you took 80hp.")
+                Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 175hp.")
+            End If
+
+            If Level > 25 Then
+                Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 150hp.")
+                Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 135hp.")
+                Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 185hp.")
+            End If
+
+            If Level > 30 Then
+                Console.WriteLine("You encotered a hydra, it took you 90 hits to kill it, you took 250hp.")
+                Console.WriteLine("You encotered a demon wolf pack, it took you 267 hits to kill it, you took 895hp.")
+                Console.WriteLine("You encotered a witch coven, it took you 35 hits to kill it, you took 600hp.")
+            End If
+
+            If Level > 50 Then
+                Console.WriteLine("You encotered a knights of Achilles, it took you 133 hits to kill it, you took 785hp.")
+                Console.WriteLine("You encotered a Achilles, it took you 367 hits to kill it, you took 1450hp.")
+                Console.WriteLine("You encotered a watchers, it took you 237 hits to kill it, you took 1200hp.")
+            End If
 
         End If
 
+        If Console.ReadLine() = "Hunt" Then
+            If Level < 5 Then
+                Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 15hp.")
+                Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 20hp.")
+                Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 30hp.")
+                Console.WriteLine("You encotered a baby oger, it took you 5 hits to kill it, you took 50hp.")
+            End If
 
+            If Level > 10 Then
+                Console.WriteLine("You encotered a witch, it took you 5 hits to kill it, you took 50hp.")
+                Console.WriteLine("You encotered a lost souls, it took you 16 hits to kill it, you took 40hp.")
+                Console.WriteLine("You encotered a ghoul, it took you 9 hits to kill it, you took 60hp.")
+                Console.WriteLine("You encotered a knight, it took you 7 hits to kill it, you took 85hp.")
+                Console.WriteLine("You encotered a goblin pack, it took you 30 hits to kill it, you took 95hp.")
 
+            End If
 
+            If Level > 20 Then
+                Console.WriteLine("You encotered a titan, it took you 48 hits to kill it, you took 120hp.")
+                Console.WriteLine("You encotered a oger, it took you 35 hits to kill it, you took 90hp.")
+                Console.WriteLine("You encotered a wolf pack, it took you 8 hits to kill it, you took 75hp.")
+                Console.WriteLine("You encotered a burned one, it took you 5 hits to kill it, you took 80hp.")
+                Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 175hp.")
+            End If
 
+            If Level > 25 Then
+                Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 150hp.")
+                Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 135hp.")
+                Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 185hp.")
+            End If
 
+            If Level > 30 Then
+                Console.WriteLine("You encotered a hydra, it took you 90 hits to kill it, you took 250hp.")
+                Console.WriteLine("You encotered a demon wolf pack, it took you 267 hits to kill it, you took 895hp.")
+                Console.WriteLine("You encotered a witch coven, it took you 35 hits to kill it, you took 600hp.")
+            End If
 
+            If Level > 50 Then
+                Console.WriteLine("You encotered a knights of Achilles, it took you 133 hits to kill it, you took 785hp.")
+                Console.WriteLine("You encotered a Achilles, it took you 367 hits to kill it, you took 1450hp.")
+                Console.WriteLine("You encotered a watchers, it took you 237 hits to kill it, you took 1200hp.")
+            End If
 
-
-
+        End If
 
     End Sub
 End Module
