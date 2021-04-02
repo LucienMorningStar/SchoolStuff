@@ -80,7 +80,7 @@ Module Program
                     Console.Write("Dungeon key 4") 'The key is needed to get into a dungeon.'
                 End If
 
-                If Level > 50 Then
+                If Level > 30 Then
                     Console.WriteLine("Legendary shop") 'The shop unlocked when you the player is above level 50. Which is an upgraded version of the MYTHIC shop.'
                     Console.Write("Life potion")  'The Life potion will heal you the player from any percent of health to the max amount of health you have.'
                     Console.Write("Achilles armor")  'Legendary armor will protect you from magic attacks you would enconter when you use the commands Hunt, DungeonEnter or Adventure.'
@@ -93,7 +93,112 @@ Module Program
             'The armor you use that defends you from a specific creature or attack when you upgrade your armor the defence combine.'
             'The sword you use that helps defeat specific enemies when upgraded the abilities combine.'
 
-            Inventory(0) = New ItemStack("Basic sword", 1)
+            If Level < 5 Then
+                If Console.ReadLine() = "Buy Life potion" Then
+                    Inventory(0) = New ItemStack("Life potion", 5)
+                End If
+
+                If Console.ReadLine() = "Buy Basic armor" Then
+                    Inventory(1) = New ItemStack("Basic armor", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Basic sword" Then
+                    Inventory(2) = New ItemStack("Basic sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Basic horse" Then
+                    Inventory(3) = New ItemStack("Basic horse", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Dungeon key 1" Then
+                    Inventory(4) = New ItemStack("Dungeon key 1", 1)
+                End If
+            End If
+
+            If Level > 5 Then
+                If Console.ReadLine() = "Buy Iron armor" Then
+                    Inventory(1) = New ItemStack("Iron armor", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Stone sword" Then
+                    Inventory(2) = New ItemStack("Stone sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Fast horse" Then
+                    Inventory(3) = New ItemStack("Fast horse", 1)
+                End If
+
+
+                If Console.ReadLine() = "Buy Dungeon key 2" Then
+                    Inventory(4) = New ItemStack("Dungeon key 2", 1)
+                End If
+            End If
+
+            If Level > 10 Then
+                If Console.ReadLine() = "Buy Iron armor" Then
+                    Inventory(1) = New ItemStack("Iron armor", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Iron sword" Then
+                    Inventory(2) = New ItemStack("Iron sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Speedy horse" Then
+                    Inventory(3) = New ItemStack("Speedy horse", 1)
+                End If
+
+
+                If Console.ReadLine() = "Buy Dungeon key 3" Then
+                    Inventory(4) = New ItemStack("Dungeon key 3", 1)
+                End If
+            End If
+
+            If Level > 20 Then
+                If Console.ReadLine() = "Buy Scale armor" Then
+                    Inventory(1) = New ItemStack("Scale armor", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Scale sword" Then
+                    Inventory(2) = New ItemStack("Scale sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Cerberus" Then
+                    Inventory(3) = New ItemStack("Cerberus", 1)
+                End If
+
+
+                If Console.ReadLine() = "Buy Dungeon key 4" Then
+                    Inventory(4) = New ItemStack("Dungeon key 4", 1)
+                End If
+            End If
+
+            If Level > 30 Then
+                If Console.ReadLine() = "Buy Achilles armor" Then
+                    Inventory(1) = New ItemStack("Achilles armor", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Excalibur sword" Then
+                    Inventory(2) = New ItemStack("Excalibur sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Durandal sword" Then
+                    Inventory(2) = New ItemStack("Durandal sword", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Dragon" Then
+                    Inventory(3) = New ItemStack("Dragon", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Pheonix" Then
+                    Inventory(3) = New ItemStack("Pheonix", 1)
+                End If
+
+                If Console.ReadLine() = "Buy Dungeon key 5" Then
+                    Inventory(4) = New ItemStack("Dungeon key 5", 1)
+                End If
+            End If
+
+
 
             Dim MyValue As Integer
 
