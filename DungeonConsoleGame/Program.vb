@@ -269,7 +269,661 @@ Module Program
                         End If
                     End If
                 End If
+
+                If Level > 30 Then
+                    If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Basic sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+
+                    If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Stone sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+                    If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Scale sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+
+
+                    If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Excalibur sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+                End If
+
             End If
+
+            If Console.ReadLine() = "Hunt" Then
+                If Level < 10 Then
+                    If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 25hp.")
+                        End If
+                    End If
+
+                    If Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 10hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 25hp.")
+                        End If
+                    End If
+
+                    If Contains("Basic sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 30hp.")
+                        End If
+                    End If
+
+                    If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 5hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 15hp.")
+                        End If
+                    End If
+
+                    If Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 5hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 15hp.")
+                        End If
+                    End If
+
+                    If Contains("Stone sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 30hp.")
+                        End If
+                    End If
+
+                    If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+                    End If
+
+                    If Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+                    End If
+
+                    If Contains("Scale sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+                        End If
+                    End If
+
+                    If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+                        End If
+                    End If
+
+                    If Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+                        End If
+                    End If
+
+                    If Contains("Excalibur sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+                        End If
+                    End If
+                End If
+
+                If Level > 30 Then
+                    If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Basic armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Basic sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+
+                    If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Iron armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Stone sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+                    If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Scale armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Scale sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+
+
+
+                    If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Achilles armor", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
+                        End If
+
+                    End If
+
+                    If Contains("Excalibur sword", Inventory) Then
+                        If MyValue = 1 Then
+                            Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
+                        End If
+
+                        If MyValue = 2 Then
+                            Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
+                        End If
+
+                    End If
+
+                End If
+
+            End If
+
+
+
+
+
+
 
 
         End While
