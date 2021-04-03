@@ -28,6 +28,9 @@ Module Program
         Dim EnterPromisedLand As String  'Command to enter the gods lnd.'
         Dim Health As Integer
         Dim Inventory(6) As ItemStack
+        Dim Experience As Integer
+
+
 
         While True
 
@@ -40,7 +43,6 @@ Module Program
                 Console.Write("Sell,")
                 Console.Write("Dungeon,")
                 Console.Write("Adventure,")
-                Console.WriteLine("Before every command type DCG then press space.")
             End If
 
             If Console.ReadLine() = "Shop" Then
@@ -92,6 +94,206 @@ Module Program
             End If
             'The armor you use that defends you from a specific creature or attack when you upgrade your armor the defence combine.'
             'The sword you use that helps defeat specific enemies when upgraded the abilities combine.'
+
+            If Experience = 50 Then
+                Level = 1
+            End If
+
+            If Experience = 100 Then
+                Level = 2
+            End If
+
+            If Experience = 150 Then
+                Level = 3
+            End If
+
+            If Experience = 200 Then
+                Level = 4
+            End If
+
+            If Experience = 250 Then
+                Level = 5
+            End If
+
+            If Experience = 500 Then
+                Level = 6
+            End If
+
+            If Experience = 550 Then
+                Level = 7
+            End If
+
+            If Experience = 600 Then
+                Level = 8
+            End If
+
+            If Experience = 700 Then
+                Level = 9
+            End If
+
+            If Experience = 750 Then
+                Level = 10
+            End If
+
+            If Experience = 800 Then
+                Level = 11
+            End If
+
+            If Experience = 900 Then
+                Level = 12
+            End If
+
+            If Experience = 1000 Then
+                Level = 13
+            End If
+
+            If Experience = 1100 Then
+                Level = 14
+            End If
+
+            If Experience = 1200 Then
+                Level = 15
+            End If
+
+            If Experience = 1300 Then
+                Level = 16
+            End If
+
+            If Experience = 1400 Then
+                Level = 17
+            End If
+
+            If Experience = 1500 Then
+                Level = 18
+            End If
+
+            If Experience = 1600 Then
+                Level = 19
+            End If
+
+            If Experience = 1700 Then
+                Level = 20
+            End If
+
+            If Experience = 1800 Then
+                Level = 21
+            End If
+
+            If Experience = 1900 Then
+                Level = 22
+            End If
+
+            If Experience = 2000 Then
+                Level = 23
+            End If
+
+            If Experience = 2100 Then
+                Level = 24
+            End If
+
+            If Experience = 2200 Then
+                Level = 25
+            End If
+
+            If Experience = 2400 Then
+                Level = 26
+            End If
+
+            If Experience = 2600 Then
+                Level = 27
+            End If
+
+            If Experience = 2800 Then
+                Level = 28
+            End If
+
+            If Experience = 3000 Then
+                Level = 29
+            End If
+
+            If Experience = 3200 Then
+                Level = 30
+            End If
+
+            If Experience = 3400 Then
+                Level = 31
+            End If
+
+            If Experience = 3600 Then
+                Level = 32
+            End If
+
+            If Experience = 3800 Then
+                Level = 33
+            End If
+
+            If Experience = 4000 Then
+                Level = 34
+            End If
+
+            If Experience = 4200 Then
+                Level = 35
+            End If
+
+            If Experience = 4400 Then
+                Level = 36
+            End If
+
+            If Experience = 4600 Then
+                Level = 37
+            End If
+
+            If Experience = 4800 Then
+                Level = 38
+            End If
+
+            If Experience = 5000 Then
+                Level = 39
+            End If
+
+            If Experience = 5200 Then
+                Level = 40
+            End If
+
+            If Experience = 5400 Then
+                Level = 41
+            End If
+
+            If Experience = 5600 Then
+                Level = 42
+            End If
+
+            If Experience = 5800 Then
+                Level = 43
+            End If
+
+            If Experience = 6000 Then
+                Level = 44
+            End If
+
+            If Experience = 6500 Then
+                Level = 45
+            End If
+
+            If Experience = 7000 Then
+                Level = 46
+            End If
+
+            If Experience = 7500 Then
+                Level = 47
+            End If
+
+            If Experience = 8500 Then
+                Level = 48
+            End If
+
+            If Experience = 9000 Then
+                Level = 49
+            End If
+
+            If Experience = 10000 Then
+                Level = 50
+            End If
 
             If Level < 5 Then
                 If Console.ReadLine() = "Buy Life potion" Then
@@ -209,168 +411,363 @@ Module Program
                     If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
                         End If
 
-                        If MyValue = 2 Then
+                            If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +8
+                            End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 25hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Experience = +11
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +5
                         End If
                     End If
 
                     If Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +5
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +7
+                            End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 25hp.")
+                            If MyValue = 3 Then
+                                Experience = +10
+                            End If
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +4
                         End If
                     End If
 
                     If Contains("Basic sword", Inventory) Then
                         If MyValue = 1 Then
-                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 15hp.")
+                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
                         End If
 
                         If MyValue = 2 Then
-                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 20hp.")
+                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +8
+                            End If
                         End If
 
                         If MyValue = 3 Then
-                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 30hp.")
+                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 25hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Experience = +11
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +5
                         End If
                     End If
 
                     If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +8
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 5hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +10
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +13
+                            End If
+
                         End If
                     End If
 
                     If Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 5hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Stone sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Excalibur sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
                 End If
@@ -379,18 +776,38 @@ Module Program
                     If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -398,18 +815,38 @@ Module Program
                     If Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -417,18 +854,38 @@ Module Program
                     If Contains("Basic sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -438,18 +895,38 @@ Module Program
                     If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -457,18 +934,38 @@ Module Program
                     If Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -476,18 +973,38 @@ Module Program
                     If Contains("Stone sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -496,18 +1013,38 @@ Module Program
                     If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -515,18 +1052,38 @@ Module Program
                     If Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -534,18 +1091,38 @@ Module Program
                     If Contains("Scale sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -556,18 +1133,38 @@ Module Program
                     If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -575,18 +1172,38 @@ Module Program
                     If Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -594,18 +1211,38 @@ Module Program
                     If Contains("Excalibur sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -619,168 +1256,363 @@ Module Program
                     If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +8
+                            End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 25hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Experience = +11
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +5
                         End If
                     End If
 
                     If Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +5
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +7
+                            End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 25hp.")
+                            If MyValue = 3 Then
+                                Experience = +10
+                            End If
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +4
                         End If
                     End If
 
                     If Contains("Basic sword", Inventory) Then
                         If MyValue = 1 Then
-                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 15hp.")
+                            Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
                         End If
 
                         If MyValue = 2 Then
-                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 20hp.")
+                            Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
+
+                            If MyValue = 2 Then
+                                Experience = +8
+                            End If
                         End If
 
                         If MyValue = 3 Then
-                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 30hp.")
+                            Console.WriteLine("You encotered a large rat, it took you 4 hits to kill it, you took 25hp.")
+                        End If
+
+                        If MyValue = 3 Then
+                            Experience = +11
+                        End If
+
+                        If MyValue = 4 Then
+                            Console.WriteLine("You encotered a baby rat, it took you 3 hits to kill it, you took 20hp.")
+                        End If
+
+                        If MyValue = 4 Then
+                            Experience = +5
                         End If
                     End If
 
                     If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +8
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 5hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +10
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +13
+                            End If
+
                         End If
                     End If
 
                     If Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 5hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Stone sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Scale sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
 
                     If Contains("Excalibur sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
                     End If
                 End If
@@ -789,18 +1621,38 @@ Module Program
                     If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -808,18 +1660,38 @@ Module Program
                     If Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -827,18 +1699,38 @@ Module Program
                     If Contains("Basic sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -848,18 +1740,38 @@ Module Program
                     If Contains("Stone sword", Inventory) And Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -867,18 +1779,38 @@ Module Program
                     If Contains("Iron armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -886,18 +1818,38 @@ Module Program
                     If Contains("Stone sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -906,18 +1858,38 @@ Module Program
                     If Contains("Scale sword", Inventory) And Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -925,18 +1897,38 @@ Module Program
                     If Contains("Scale armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -944,18 +1936,38 @@ Module Program
                     If Contains("Scale sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -966,18 +1978,38 @@ Module Program
                     If Contains("Excalibur sword", Inventory) And Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -985,18 +2017,38 @@ Module Program
                     If Contains("Achilles armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -1004,18 +2056,38 @@ Module Program
                     If Contains("Excalibur sword", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 2 Then
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                         If MyValue = 4 Then
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
+
+                            If MyValue = 1 Then
+                                Experience = +6
+                            End If
+
                         End If
 
                     End If
@@ -1023,7 +2095,6 @@ Module Program
                 End If
 
             End If
-
 
 
 
