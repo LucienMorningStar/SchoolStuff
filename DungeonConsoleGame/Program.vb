@@ -29,7 +29,7 @@ Module Program
         Dim Health As Integer
         Dim Inventory(6) As ItemStack
         Dim Experience As Integer
-
+        Dim Coins As Integer
 
 
         While True
@@ -413,7 +413,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
                         End If
 
@@ -421,7 +421,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
                         End If
 
@@ -430,7 +430,7 @@ Module Program
                         End If
 
                         If MyValue = 3 Then
-                            Experience = +11
+                            Experience = +11 And Coins = +5
                         End If
 
                         If MyValue = 4 Then
@@ -438,7 +438,7 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +5
+                            Experience = +5 And Coins = +5
                         End If
                     End If
 
@@ -447,7 +447,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +5
+                                Experience = +5 And Coins = +5
                             End If
 
                         End If
@@ -456,14 +456,14 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +7
+                                Experience = +7 And Coins = +5
                             End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 25hp.")
                             If MyValue = 3 Then
-                                Experience = +10
+                                Experience = +10 And Coins = +5
                             End If
                         End If
 
@@ -472,7 +472,7 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +4
+                            Experience = +4 And Coins = +5
                         End If
                     End If
 
@@ -481,7 +481,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
                         End If
 
@@ -489,7 +489,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
                         End If
 
@@ -498,7 +498,7 @@ Module Program
                         End If
 
                         If MyValue = 3 Then
-                            Experience = +11
+                            Experience = +11 And Coins = +5
                         End If
 
                         If MyValue = 4 Then
@@ -506,7 +506,7 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +5
+                            Experience = +5 And Coins = +5
                         End If
                     End If
 
@@ -515,7 +515,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
 
                         End If
@@ -524,7 +524,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 5hp.")
 
                             If MyValue = 1 Then
-                                Experience = +10
+                                Experience = +10 And Coins = +5
                             End If
 
                         End If
@@ -533,7 +533,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +13
+                                Experience = +13 And Coins = +5
                             End If
 
                         End If
@@ -544,7 +544,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -553,7 +553,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 5hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -562,7 +562,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -573,7 +573,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -582,7 +582,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -591,7 +591,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -602,7 +602,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -611,7 +611,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -620,7 +620,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -631,7 +631,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -640,7 +640,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -649,7 +649,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -660,7 +660,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -669,7 +669,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -678,7 +678,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -689,7 +689,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -698,7 +698,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -707,7 +707,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -718,7 +718,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -727,7 +727,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -736,7 +736,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -747,7 +747,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -756,7 +756,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -765,7 +765,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -778,7 +778,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -787,7 +787,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -796,7 +796,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -805,7 +805,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -817,7 +817,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -826,7 +826,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -835,7 +835,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -844,7 +844,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -856,7 +856,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -865,7 +865,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -874,7 +874,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -883,7 +883,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -897,7 +897,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -906,7 +906,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -915,7 +915,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -924,7 +924,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -936,7 +936,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -945,7 +945,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -954,7 +954,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -963,7 +963,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -975,7 +975,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -984,7 +984,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -993,7 +993,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1002,7 +1002,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1015,7 +1015,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1024,7 +1024,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1033,7 +1033,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1042,7 +1042,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1054,7 +1054,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1063,7 +1063,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1072,7 +1072,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1081,7 +1081,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1093,7 +1093,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1102,7 +1102,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1111,7 +1111,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1120,7 +1120,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1135,7 +1135,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1144,7 +1144,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1153,7 +1153,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1162,7 +1162,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1174,7 +1174,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1183,7 +1183,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1192,7 +1192,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1201,7 +1201,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1213,7 +1213,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1222,7 +1222,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1231,7 +1231,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1240,7 +1240,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1252,13 +1252,15 @@ Module Program
             End If
 
             If Console.ReadLine() = "Hunt" Then
+
+
                 If Level < 10 Then
                     If Contains("Basic sword", Inventory) And Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
                         End If
 
@@ -1266,7 +1268,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
                         End If
 
@@ -1275,7 +1277,7 @@ Module Program
                         End If
 
                         If MyValue = 3 Then
-                            Experience = +11
+                            Experience = +11 And Coins = +5
                         End If
 
                         If MyValue = 4 Then
@@ -1283,16 +1285,17 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +5
+                            Experience = +5 And Coins = +5
                         End If
                     End If
+
 
                     If Contains("Basic armor", Inventory) Then
                         If MyValue = 1 Then
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +5
+                                Experience = +5 And Coins = +5
                             End If
 
                         End If
@@ -1301,14 +1304,14 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +7
+                                Experience = +7 And Coins = +5
                             End If
                         End If
 
                         If MyValue = 3 Then
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 25hp.")
                             If MyValue = 3 Then
-                                Experience = +10
+                                Experience = +10 And Coins = +5
                             End If
                         End If
 
@@ -1317,7 +1320,7 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +4
+                            Experience = +4 And Coins = +5
                         End If
                     End If
 
@@ -1326,7 +1329,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 4 hits to kill it, you took 10hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
                         End If
 
@@ -1334,7 +1337,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 4 hits to kill it, you took 15hp.")
 
                             If MyValue = 2 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
                         End If
 
@@ -1343,7 +1346,7 @@ Module Program
                         End If
 
                         If MyValue = 3 Then
-                            Experience = +11
+                            Experience = +11 And Coins = +5
                         End If
 
                         If MyValue = 4 Then
@@ -1351,7 +1354,7 @@ Module Program
                         End If
 
                         If MyValue = 4 Then
-                            Experience = +5
+                            Experience = +5 And Coins = +5
                         End If
                     End If
 
@@ -1360,7 +1363,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +8
+                                Experience = +8 And Coins = +5
                             End If
 
                         End If
@@ -1369,7 +1372,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 5hp.")
 
                             If MyValue = 1 Then
-                                Experience = +10
+                                Experience = +10 And Coins = +5
                             End If
 
                         End If
@@ -1378,7 +1381,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +13
+                                Experience = +13 And Coins = +5
                             End If
 
                         End If
@@ -1389,7 +1392,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1398,7 +1401,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 5hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1407,7 +1410,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1418,7 +1421,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 3 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1427,7 +1430,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 3 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1436,7 +1439,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 3 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1447,7 +1450,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1456,7 +1459,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1465,7 +1468,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1476,7 +1479,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1485,7 +1488,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1494,7 +1497,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1505,7 +1508,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1514,7 +1517,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1523,7 +1526,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1534,7 +1537,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1543,7 +1546,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1552,7 +1555,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1563,7 +1566,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1572,7 +1575,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1581,7 +1584,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 5 hits to kill it, you took 0hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1592,7 +1595,7 @@ Module Program
                             Console.WriteLine("You encotered a lost wolf, it took you 1 hits to kill it, you took 15hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1601,7 +1604,7 @@ Module Program
                             Console.WriteLine("You encotered a goblin, it took you 1 hits to kill it, you took 20hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1610,7 +1613,7 @@ Module Program
                             Console.WriteLine("You encotered a large rat, it took you 1 hits to kill it, you took 30hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1623,7 +1626,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 145hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1632,7 +1635,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1641,7 +1644,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1650,7 +1653,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1662,7 +1665,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 45 hits to kill it, you took 145hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1671,7 +1674,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1680,7 +1683,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 180hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1689,7 +1692,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1701,7 +1704,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1710,7 +1713,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 17 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1719,7 +1722,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 64 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1728,7 +1731,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 24 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1742,7 +1745,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1751,7 +1754,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 120hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1760,7 +1763,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1769,7 +1772,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 160hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1781,7 +1784,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1790,7 +1793,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 120hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1799,7 +1802,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 170hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1808,7 +1811,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 160hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1820,7 +1823,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 38 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1829,7 +1832,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 15 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1838,7 +1841,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 62 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1847,7 +1850,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1860,7 +1863,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 105hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1869,7 +1872,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 5 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1878,7 +1881,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 57 hits to kill it, you took 140hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1887,7 +1890,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1899,7 +1902,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 105hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1908,7 +1911,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1917,7 +1920,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 140hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1926,7 +1929,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 130hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1938,7 +1941,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 18 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1947,7 +1950,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 55 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1956,7 +1959,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 58 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1965,7 +1968,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 22 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1980,7 +1983,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 55hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1989,7 +1992,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 40hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -1998,7 +2001,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2007,7 +2010,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 80hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2019,7 +2022,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 43 hits to kill it, you took 55hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2028,7 +2031,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 20 hits to kill it, you took 40hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2037,7 +2040,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 67 hits to kill it, you took 90hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2046,7 +2049,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 27 hits to kill it, you took 80hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2058,7 +2061,7 @@ Module Program
                             Console.WriteLine("You encotered a armored oger, it took you 6 hits to kill it, you took 150hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2067,7 +2070,7 @@ Module Program
                             Console.WriteLine("You encotered a armored knight, it took you 43 hits to kill it, you took 135hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2076,7 +2079,7 @@ Module Program
                             Console.WriteLine("You encotered a armored titan, it took you 46 hits to kill it, you took 185hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2085,7 +2088,7 @@ Module Program
                             Console.WriteLine("You encotered a demon wolf, it took you 10 hits to kill it, you took 175hp.")
 
                             If MyValue = 1 Then
-                                Experience = +6
+                                Experience = +6 And Coins = +5
                             End If
 
                         End If
@@ -2093,17 +2096,9 @@ Module Program
                     End If
 
                 End If
-
             End If
 
-
-
-
-
-
-
         End While
-
 
     End Sub
 
